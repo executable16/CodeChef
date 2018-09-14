@@ -7,7 +7,7 @@ const ull MOD=1e9+7;
 #define input for(int i=1;i<=n;i++)cin>>a[i];
 #define output for(int i=0;i<n;i++)cout<<a[i]<<" ";
 int main()
-{
+{ flash;
 int tc,c=0;
 cin>>tc;
 while(tc--)
