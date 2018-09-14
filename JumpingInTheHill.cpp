@@ -43,7 +43,8 @@ for(int i=1;i<n;i++)
           break;
        }
 }
-cout<<pos<<endl;
+cout<<pos<<endl;    // if there has been no changes in position w.r.t 'i'
+                    // it means chef cannot go any further
 }
 return 0;
 }
