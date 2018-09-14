@@ -34,7 +34,7 @@ for(int i=1;i<n;i++)
     }
         else if(a[i]>=a[i+1] && a[i]-a[i+1]<=d )
         {
-            pos=i+1;//cout<<"lower jump"<<endl;
+            pos=i+1; //  lower jump
             
         }
        }
