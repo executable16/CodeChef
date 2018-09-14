@@ -40,11 +40,12 @@ for(int i=1;i<n;i++)
        }
        if(pos!=i+1)
        {
-          break;
+          break; // if there has been no changes in position w.r.t 'i'
+                // it means chef cannot go any further
+}
        }
 }
-cout<<pos<<endl;    // if there has been no changes in position w.r.t 'i'
-                    // it means chef cannot go any further
-}
+cout<<pos<<endl;    
+                    
 return 0;
 }
