@@ -1,3 +1,6 @@
+https://www.spoj.com/problems/NAJPF/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 // Prefix Function Z algorithm
